@@ -17,7 +17,7 @@ export default {
   			success: '#102F22',
   			info: '#D9F4F9',
   			warning: '#FAE4D0',
-  			danger: '#d7191c'
+  			danger: '#d7191c',
   		},
   		container: {
   			center: true,
