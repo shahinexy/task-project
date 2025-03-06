@@ -20,7 +20,7 @@ const Terminalpage = () => {
 
             <div className="grid md:grid-cols-3 grid-cols-1 gap-7 ">
                 {
-                    item.map((item, idx) => <div className='bg-white md:p-7 p-3 rounded-3xl'>
+                    item.map((item, idx) => <div key={idx} className='bg-white md:p-7 p-3 rounded-3xl'>
                         <div className="flex items-start space-x-4">
                             {/* Left Side Icons with Dotted Line */}
                             <div className="flex flex-col items-center">
